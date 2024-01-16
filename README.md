@@ -12,6 +12,6 @@ LESSON 6:  HTML формы
 
 LESSON 7: АНИМАЦИЯ CSS
 
-LESSON 8: ТАБЛИЦА
+LESSON 9: ТАБЛИЦА
 
-LESSON: 9 или 10 АДАПТИВНЫЙ ДИЗАЙН
+LESSON 10: АДАПТИВНЫЙ ДИЗАЙН
