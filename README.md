@@ -10,7 +10,7 @@ LESSON 5: Позиционирование элементов
 
 LESSON 6:  HTML формы
 
-LESSON 7: АНИМАЦИЯ CSS
+LESSON 8: АНИМАЦИЯ CSS
 
 LESSON 9: ТАБЛИЦА
 
