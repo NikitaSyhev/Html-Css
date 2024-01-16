@@ -1,0 +1,169 @@
+
+/* Variables */
+:root {
+    --font-color:#666f5d;
+    --bg-color:#7ddaf4;
+    --borders-color:#170c0c;
+    --shadows-color:#321082;
+    --menu-color:#202a99;
+}
+
+/* GLOBAL SETTINGS */
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color:var(--font-color);
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    background-color: var(--bg-color);
+
+}
+
+/* HEADER */
+header {
+    padding:0 6px;
+    border-bottom: 3px solid var(--borders-color);
+
+    height:70px;
+    box-shadow: 0 5px 0 var(--shadows-color);
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-left, .col-right {
+    display: flex;
+    align-items: center;
+}
+
+.main-logo {
+    text-decoration:none;
+}
+
+.main-logo h1 {
+    font-size: 1.5em;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.col-right {
+    text-decoration: none;
+}
+
+.full-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 6px;
+    padding: 6px;
+
+    font-size: 1.5em;
+}
+
+.nav-item:hover {
+    box-shadow: 0 3px 0 var(--borders-color);
+}
+
+
+/* BURGER_NAVIGATION */
+.burger-nav {
+    display:none;
+}
+
+.burger-logo {
+    height: 70px;
+}
+
+.hidden-menu {
+    border-left:3px solid var(--borders-color);
+
+    height:300vw;
+    background-color: var(--menu-color);
+
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    display: none;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.hidden-menu .nav-item {
+    padding: 8px 10px;
+
+    font-size: 1.8em;
+    text-align: right;
+}
+
+.burger-nav:hover .hidden-menu {
+    display: flex;
+}
+
+/* CONTAINER */
+
+.container {
+    margin-top: 40px;
+    padding: 0 6px;
+
+    display:flex;
+    justify-content:center;
+}
+
+.card {
+    margin: 0 10px;
+    padding: 20px 30px;
+    border: 3px solid var(--borders-color);
+
+    max-width:350px;
+    box-shadow: 5px 5px var(--shadows-color);
+    
+}
+
+.card-title {
+    font-size:1.26em;
+}
+
+.card hr {
+    margin: 10px 0;
+    border: 1px solid var(--borders-color);
+}
+
+/* ADAPTIVE PARTS */
+/* HEADER */
+
+@media screen and (max-width: 650px) {
+    .full-nav {display: none;}
+    .burger-nav {display: block;}
+}
+
+
+
+/* CONTAINER */
+@media screen and (max-width: 900px) {
+    .container {
+        flex-direction:column; 
+        align-items: center;   
+    }
+
+    .card {
+        margin:0 0 20px 0;
+        max-width:350px;
+    }
+}
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <!--технические данные сайта-->
+        <meta charset=" utf-8">
+        <title>Первая страница</title>
+        <style>
+            /* Селлектор тега, применяемый ко всем тегам h2 */
+            h2 {
+                color:rgba(30, 8, 150, 0.382);
+                text-decoration: underline;
+            }
+            /* селектор идентификатора, применяемый к элементу с id = uniq */
+            #uniq {
+                color: #ce0e17;
+                text-align:center;
+                font-style: italic;
+            }
+            /* селектор класса, применяемый ко всем элементам с class = decor */
+            .decor{
+                font-weight:bold;
+            }
+            /* универсальный селектор, применяемый абсолютно ко всем элемента страницы */
+            
+            *{
+             font-family: Arial, "Times New Roman", sans-serif;
+            }
+        </style>
+        <!-- приоритетность стилей: 1) встраиваемые ( находятся в самом html - body) 2) идентификатор 3) селекторы классов 4) селекторы тегов 5) универсальные 6) стили по умолчанию -->
+    </head>
+    <body>
+    <!--это комментарий ( многострочный )-->
+    <h1>Это заголовок первого уровня</h1>
+    <h2>Это заголовок второго уровня</h2>
+    <hr> <!--тег горизонтальное линии-->
+     <p class="decor">Hello, world!</p>
+     <p>Это - абзац. В нем принято располагать обычный текст</p>
+     <!-- встраевыемые стили -->
+     <p style="color:red;font-size: 30px;">
+        Это тоже абзац, но в исходном коде он записан 
+        в несколько строчек.<br>
+        Эта строка также является частью абзаца, но она перенесана с помощью тега BR.
+     </p>
+     <p id="uniq">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellat amet recusandae sit alias magnam error tenetur ex laboriosam vel quisquam ipsa, reprehenderit ipsum aperiam atque odit blanditiis. Eum, impedit.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellat amet recusandae sit alias magnam error tenetur ex laboriosam vel quisquam ipsa, reprehenderit ipsum aperiam atque odit blanditiis. Eum, impedit.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellat amet recusandae sit alias magnam error tenetur ex laboriosam vel quisquam ipsa, reprehenderit ipsum aperiam atque odit blanditiis. Eum, impedit.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellat amet recusandae sit alias magnam error tenetur ex laboriosam vel quisquam ipsa, reprehenderit ipsum aperiam atque odit blanditiis. Eum, impedit.
+     </p>
+     <h2>
+        Lorem ipsum dolor sit amet.
+     </h2>
+     <p class="decor">
+        Далеко-далеко за словесными, горами в стране гласных и согласных живут рыбные тексты. Послушавшись, себя возвращайся все толку сбить они за рукопись моей безорфографичный, рот, вскоре гор рыбными оксмокс правилами грустный. Путь которое, безорфографичный речью своих текста большого последний переписали встретил запятых дороге, оксмокс дал повстречался имени продолжил lorem снова послушавшись необходимыми свой?
+     </p>
+
+    </body>
+</html>

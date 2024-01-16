@@ -1,0 +1,101 @@
+form {
+    display:flex;
+    justify-content: center;
+    margin-top: 200px;
+    box-sizing:border-box;
+}
+
+.bank-card {
+    width: 300px;
+    height: 250px;
+    border-radius:10px;
+
+    background-color: rgb(87, 191, 191);
+
+    position:relative;
+
+}
+
+.red-line {
+ width: 300px;
+ 
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ font-size: 18px;
+ color: white;
+
+ position: absolute;
+ z-index: 2;
+ margin: 10px;
+ background-color: rgb(255, 99, 71);
+
+ right:20px;
+
+}
+.row {
+    width: 80%;
+    margin-top:60px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:20px;
+}
+
+.row2 {
+    width: 80%;
+    margin-top:110px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:20px;
+}
+
+
+.input {
+    background-color: rgb(135, 218, 218);
+}
+
+.card-data {
+    width: 80%;
+    margin-top:160px;
+    display: flex;  
+    position: absolute;
+    left:20px;
+    
+}
+
+.month {
+    width: 120px;
+}
+.month-input {
+    background-color: rgb(135, 218, 218);
+    width: 40px;;
+}
+
+.year {
+    width:30px;
+    margin-top: 18px;
+    position: relative;
+    left: -40px;
+}
+.year-input {
+    background-color: rgb(135, 218, 218);
+    width: 40px;
+}
+
+.cvv {
+    width:40px;
+    position: relative;
+    left:18px;
+}
+.cvv-input {
+    background-color: rgb(135, 218, 218);
+    width: 63px;
+}
+
+
+
+
+
+
+
+

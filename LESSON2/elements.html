@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дополнительные HTML - элементы</title>
+    <style>
+        .first-list{
+            list-style-type: upper-roman;
+            color:rgb(224, 20, 204);
+            font-size:30px;  
+        }
+        .second-list{
+            list-style-type:square;
+            font-weight:bold;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+        }
+        .unusual{
+            color:black;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: cursive;
+            text-shadow: 10cm;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML ссылки -->
+    <!-- span - тег специального форматирования -->
+    <p>
+        Lorem ipsum dolor sit amet consectetur
+         adipisicing elit.
+          <a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">
+        Cupiditate corporis</a>
+         pariatur nisi ratione eligendi
+          assumenda molestiae temporibus natus vel laudantium! Fugit incidunt at illo, 
+          <span class="unusual">a optio pariatur ipsam</span>, suscipit nemo amet vel, iure id totam maiores quam
+           aliquam enim error commodi veritatis explicabo odit. Eveniet cum aliquam vero voluptas expedita.    
+    </p>
+
+    <!-- Списки -->
+    <!-- нумерованный список -->
+    <!-- li - list item -->
+    <ol class="first-list">
+        <li>Элемент списка 1</li>
+        <li>Элемент списка 2</li>
+         <li>Элемент списка 3! Ничего себе!</li>
+    </ol>
+    <!-- маркированный список -->
+    <ul class="second-list">
+        <li>Маркированный список 1</li>
+        <li>Маркированный список 2</li>
+        <li>Маркированный список 3</li>
+    </ul>
+    <!-- Вложенные списки -->
+    <h3>Список покупок</h3>
+    <ol>
+        <li>Хлеб;</li>
+        <li>Макароны;</li>
+        <li>Яблоки:</li>
+        <ul>
+            <li>Голден;</li>
+            <li>Симиренко;</li>
+            <li>Сезонные;</li>
+        </ul>
+        <li>Колбаса;</li>
+    </ol>
+
+    <p>
+        &lt;br&gt;  - тег для разрыва строки &сум;
+
+    </p>
+    
+</body>
+</html>

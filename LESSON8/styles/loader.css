@@ -1,0 +1,85 @@
+
+
+
+.loader {
+
+
+    width: 100vw;
+    height: 100vw;
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.trait {
+    margin: 20px;
+
+    width: 200px;
+    height: 100px;
+
+    animation-duration: 3.0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    
+}
+
+.first {
+    background-color: rgb(233, 245, 241);
+    animation-name: first;
+    
+}
+
+.second {
+    background-color: rgb(79, 112, 142);
+    animation-name: second;
+}
+
+.third {
+    background-color: rgb(1, 8, 15);
+    animation-name: third;
+}
+
+@keyframes first {
+
+    25% {
+      background-color:rgb(79, 112, 142);
+    }   
+
+    50% {
+        background-color:  rgb(1, 8, 15);
+      }   
+    75% {
+        background-color:rgb(79, 112, 142);
+      }   
+
+  }
+
+  @keyframes second {
+    25% {
+        background-color:rgb(1, 8, 15);
+      }   
+  
+      50% {
+          background-color: rgb(79, 112, 142);
+        }   
+      75% {
+          background-color:rgb(1, 8, 15);
+        }     
+  }
+
+  @keyframes third {
+    25% {
+        background-color:rgb(79, 112, 142);
+      }   
+  
+      50% {
+          background-color:  rgb(233, 245, 241);
+        }   
+      75% {
+          background-color:rgb(79, 112, 142);
+        }     
+  }
+
+ 

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <!-- Простая форма с текстовым полем без CSS -->
+
+<form action="#" method="get">
+    <h4>Поиск по сайту: </h4>
+    <input type="text">
+    <!-- <button type="submit">Поиск</button> -->
+    <input type="submit" value="Поиск">
+    <input type="reset" value="Сброс">
+</form>    
+
+
+<!-- Форма обратной связи, стилизованная с помощью CSS -->
+
+<form class="feedback-form" action="#" method="post">
+<h3 class="fb-title">Оставьте обратную связь</h3>
+
+<div class="row">
+    <label for="uname">Имя: </label>
+    <input type="text" name="uname">
+</div>
+
+<div class="row">   
+    <label for="uemail">Адрес электронной почты:</label>
+    <input type="email" name="uemail"> 
+</div>
+
+<div class="row">   
+    <label for="message">Ваше сообщение: </label>
+    <textarea name="message"></textarea>
+</div>
+
+
+<input type="submit">Отправить</button>
+
+<!-- Форма регистрации -->
+
+</form>
+
+<form>
+    <h3>Регистрация</h3>  
+    <div>
+        <label for="uname">Имя пользователя: </label>
+        <input type="text" name="uname">
+    </div>
+
+    <div>
+        <label for="uemail">Адрес электронной почты: </label>
+        <input type="email" name="uemail">
+    </div>
+
+    <div>
+        <label for="upassw">Пароль пользователя: </label>
+        <input type="password" name="upassw">
+    </div>
+    <div>
+        <p>Пол:</p>
+        <input type="radio" name="gender" value="male" id="g-male">
+        <label for="g-male">Мужской</label>
+        <input type="radio" name="gender" value="female" id="g-female">
+        <label for="g-female">Женский</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="license" required>
+        <label for="license">Я принимаю лицензионное соглашение</label>
+    </div>
+    
+    <button type="submit">Зарегистрироваться</button>
+
+</form>
+
+
+</body>
+</html>

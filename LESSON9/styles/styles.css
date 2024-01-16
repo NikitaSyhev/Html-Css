@@ -1,0 +1,122 @@
+table {
+    margin-bottom: 60px;
+}
+
+.bordered {
+    border:1px solid black;
+}
+
+.bordered td {
+    border:1px solid black;
+}
+
+.collapsed {
+    border-collapse:collapse;
+}
+
+
+.headed {
+    border:1px solid green;
+}
+
+.headed th {
+    border: 1px solid red;
+}
+
+.headed td {
+    border: 1px solid blue;
+}
+
+.spaced {
+    border-spacing: 10px;
+}
+
+.uniq {
+    border-spacing:10px;
+    border: 1px solid black;
+    background-image:url("../images/1.jpg") ;
+}
+
+.uniq th {
+    padding: 6px;
+    border: 1px solid black;
+    background-image:url("../images/2.jpg") ;
+}
+
+.uniq td {
+    padding: 6px;
+    border: 1px solid black;
+    background-image:url("../images/3.jpg") ;
+}
+
+.special {
+    width:100px;
+    height:80px;
+    text-align: center;
+    vertical-align: top;
+    background-color: aquamarine;
+}
+
+.united {
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+.united td {
+    padding: 2px;
+    align-items: center;
+}
+
+.weather-table {
+    border-collapse:collapse;
+}
+
+.territory {
+    background-color: blueviolet;
+    color:white;
+    border: 1px solid black;
+ 
+}
+
+.year-month {
+    background-color: rgb(10, 121, 78);
+    color:white;
+    border: 1px solid black;
+   
+    
+}
+
+.monthes {
+    background-color: rgb(16, 211, 136);
+    color:black;
+    border: 1px solid black;
+   
+   
+}
+
+.options {
+    background-color: rgb(25, 243, 160);
+    color:black;
+    border: 1px solid black;
+    
+    
+    
+}
+
+.region {
+    text-align: left;
+    background-color: rgb(135, 86, 175);
+    font-size: 10px;
+    border: 1px solid black;
+  
+}
+
+ td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+   
+}
+
+
+

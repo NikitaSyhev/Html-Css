@@ -1,0 +1,29 @@
+*{
+    font-size: 26px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.card{
+    background-color: #8877d3;
+    width: 700px;
+    margin: 50px;
+    padding:30px 50px;
+    border:30px ridge darkcyan;
+    border-radius:25px;
+ 
+}
+
+.card-title{
+    font-size: 36px;
+    text-align: center;
+}
+
+.card-description{
+text-align: justify;
+}
+
+.card-pic{
+margin-left:20px;
+width: 300px;
+float:right;
+}

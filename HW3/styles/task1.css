@@ -1,0 +1,21 @@
+.header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.picture{
+    width: 200px;
+    float:right;
+    margin-left: 10px;
+}
+.paragraph{
+    text-align: justify;
+}
+
+.container-1{
+    background-color: bisque;
+    margin: 50px;
+    border-radius:25px;
+   padding: 10px 10px 40px 10px;
+}
+.paragraph{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

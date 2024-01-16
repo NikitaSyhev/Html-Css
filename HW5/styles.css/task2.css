@@ -1,0 +1,68 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    position: absolute;
+    background-color: rgba(22, 3, 3, 0.578);
+    width: 650px;
+    height: 350px;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    
+}
+
+.planet1 {
+    background-color: #b31313b3;
+    border-radius:50%;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    top:30px;
+    left: 50px;
+    z-index:2;
+}
+
+.planet2 {
+    background-color: #13cb91e1;
+    border-radius:50%;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    top:-50px;
+    left: 130px;
+    z-index:3;
+}
+
+.planet3 {
+    background-color: #13d51dfb;
+    border-radius:50%;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    bottom:200px;
+    left: 230px;
+    z-index:4;
+}
+
+.planet4 {
+    background-color: #b0ed09fb;
+    border-radius:50%;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    top:-400px;
+    left: 350px;
+    z-index:4;
+}

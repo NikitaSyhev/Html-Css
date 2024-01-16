@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <h3>Простая таблица без стилей</h3>
+    <table>
+        <!-- tr = table row -->
+        <tr>
+            <!-- td = table division -->
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    <h3>Таблица с границами</h3>
+    <table class="bordered">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    <h3>Таблица без расстояний между ячейками</h3>
+    <table class="bordered collapsed">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    <h3>Таблица с заголовочнысм рядом</h3>
+    <table class="bordered collapsed headed">
+        <!-- th = table header -->
+        <tr>
+            <!-- th = table header -->
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    <h3>Таблица с настраиваемыми полями между ячейками</h3>
+    <table class="bordered spaced headed">
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+
+    <h3>Таблица с большим количеством настроек</h3>
+    <table class="uniq">
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Hello</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td class="special">7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    <h3>Таблица c объединенными ячейками</h3>
+    <table class="bordered collapsed united">
+        <tr>
+            <td colspan="2">1, 2</td>
+            <!-- <td>2</td> -->
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td rowspan="2">9, 13</td>
+            <td>10</td>
+            <td colspan="2" rowspan="2">11, 12, <br>15, 16</td>
+            <!-- <td>12</td> -->
+        </tr>
+        <tr>
+            <!-- <td>13</td> -->
+            <td>14</td>
+            <!-- <td>15</td> -->
+            <!-- <td>16</td> -->
+        </tr>
+    </table>
+
+    <!-- Задание таблица погоды -->
+    <table class="weather-table">
+        <tr>
+            <th class="territory" rowspan="3">Территория</th>
+            <th class="year-month" colspan="4">Месяц года</th>
+        </tr>
+        <tr>
+            <th class="monthes" colspan="2" >Июнь</th>
+            <th class="monthes" colspan="2" >Январь</th>
+        </tr>
+        <tr>
+            <th class="options">Осадки, <br>мм</th>
+            <th class="options">Температура, <br> &deg;С</th>
+            <th class="options">Осадки, <br>мм</th>
+            <th class="options">Температура, <br> &deg;С</th>
+        </tr>
+        <tr>
+            <td class="region">Тульская обл.</td>
+            <td>85</td>
+            <td>23</td>
+            <td>26</td>
+            <td>-15</td>
+        </tr>
+        <tr>
+            <td class="region">Курская обл.</td>
+            <td>63</td>
+            <td>27</td>
+            <td>23</td>
+            <td>-12</td>
+        </tr>
+        <tr>
+            <td class="region">Псковская обл.</td>
+            <td>78</td>
+            <td>19</td>
+            <td>35</td>
+            <td>-21</td>
+        </tr>
+        <tr>
+            <td class="region">Перский Край</td>
+            <td>54</td>
+            <td>16</td>
+            <td>45</td>
+            <td>-27</td>
+        </tr>  
+
+
+
+
+    </table>
+
+
+
+
+</body>
+</html>

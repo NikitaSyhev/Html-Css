@@ -1,0 +1,130 @@
+/* АНИМИРОВАННАЯ ТАБЛИЦА */
+
+.table {
+    margin: 50px;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    margin: 10px;
+
+    width: 75px;
+    height: 75px;
+
+    background-color: rgb(81, 56, 105);
+
+    /* transition: transform .3s; */
+    transition: all .3s;
+}
+
+.cell:hover {
+    /* width: 100px;
+    height: 100px; */
+    transform: scale(1.8, 1.8) rotate(135deg);
+    background-color: cadetblue;
+    z-index: 2;
+}
+
+/* АНИМИРОВАННЫЙ МЯЧ */
+
+.ball {
+    margin-left: 20px;1
+    border-radius: 50%;
+
+    width: 100px;
+    height: 100px;
+
+    background-color: tomato;
+
+    font-family: "Comic Sans MS";
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: rolling;
+    animation-duration: 5s;
+    animation-timing-function:ease-out;
+    animation-iteration-count:infinite;
+}
+
+@keyframes rolling {
+    10% {transform: none}
+    50%,60% {transform: translate(900px,0) rotate(1turn) }
+}
+
+/* ЗАГРУЗОЧНЫЙ ЭКРАН */
+
+.loader {
+    width: 100vw;
+    height: 100vw;
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+
+    position: fixed;
+    top:0;
+    left:0;
+
+}
+
+.block {
+    margin: 10px;
+
+    width: 80px;
+    height: 80px;
+
+    animation-duration: .4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.red {
+    background-color: red;
+    animation-name: red;
+}
+.yel {
+    background-color: yellow;
+    animation-name: yel;
+}
+.gre {
+    background-color: green;
+    animation-name: gre;
+}
+.blu {
+    background-color: blue;
+    animation-name: blu;
+}
+
+@keyframes red {
+  100% {
+    transform:translate(100px, 0);
+    background-color:yellow;
+  }   
+}
+
+@keyframes yel {
+    100% {
+      transform:translate(0, 100px);
+      background-color:green;
+    }   
+  }
+
+  @keyframes gre {
+    100% {
+      transform:translate(-100px, 0);
+      background-color:blue;
+    }   
+  }
+
+  @keyframes blu {
+    100% {
+      transform:translate(0, -100px);
+      background-color: red;
+    }   
+  }
